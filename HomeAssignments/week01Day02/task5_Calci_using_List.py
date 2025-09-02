@@ -4,9 +4,7 @@ data = [1200, 3400, 560, 4500, 2100]
 
 class Calculate_totals_and_averages:
     def __init__(self, data):
-        self.data = data
-        
-    
+        self.data = data    
 
     def total_sales(self):
         self.total = sum(self.data)
