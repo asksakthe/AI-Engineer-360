@@ -1,6 +1,8 @@
 def primeCheck(num):
     dividend = num//2
     for i in range(2,dividend+1):
+        if i == 2 or i == 3:
+            continue 
         if num % i == 0:
             return False
         return True
