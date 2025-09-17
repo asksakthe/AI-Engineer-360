@@ -29,8 +29,9 @@ def make_payment(payment_method, amount):
 if __name__ == "__main__":
     payMethods = [PayPalPayment,BankTransferPayment,CreditCardPayment]
     for i in payMethods:
-        print(i.__name__)
+        print(f"now we are calling {i.__name__} class")
         call_func = make_payment(i, 500)
         print(call_func)
+        print("#######################################################")
 
         
