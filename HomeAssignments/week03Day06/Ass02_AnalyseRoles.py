@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 class ManualTester:
     def analyze(self, data):
@@ -31,5 +32,6 @@ if __name__ == "__main__":
     else:
         out = show_analysis(data,tester_role)
     print(out)
+    
 
 1
