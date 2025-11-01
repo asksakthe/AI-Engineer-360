@@ -1,0 +1,6 @@
+database:
+  - name: 'AWS HOST'
+    port: 3389
+
+  - name: 'Azure'
+    port: 7786

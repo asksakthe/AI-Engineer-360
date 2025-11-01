@@ -1,0 +1,24 @@
+files:
+  - name: policy_001.csv
+    delimiter: ","
+    required_columns: [policy_id, policy_date, premium, member_id]
+    columns:
+      policy_id:
+        pattern: "^POL[0-9]{5}$"
+      policy_date:
+        format: "%Y-%m-%d"
+      premium:
+        min_value: 0
+      member_id:
+        prefix: "A-"
+  - name: policy_002.xlsx
+    required_columns: [policy_id, policy_date, premium, member_id]
+    columns:
+      policy_id:
+        pattern: "^POL[0-9]{5}$"
+      policy_date:
+        format: "%Y-%m-%d"
+      premium:
+        min_value: 0
+      member_id:
+        prefix: "A-"

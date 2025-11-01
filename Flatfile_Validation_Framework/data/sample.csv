@@ -1,0 +1,4 @@
+policy_id,policy_date,premium,member_id
+POL10001,2025-10-12,5000,A-555
+POL99999,2025-09-30,9000,A-888
+INVALID,20251212,-1,B-111
